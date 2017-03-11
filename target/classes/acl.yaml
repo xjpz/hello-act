@@ -1,0 +1,19 @@
+root:
+  type: privilege
+  level: 9999
+
+create-todo-item:
+  type: permission
+  dynamic: false
+
+update-todo-item:
+  type: permission
+  dynamic: true
+
+read-todo-item:
+  type: permission
+  dynamic: true
+
+delete-todo-item:
+  type: permission
+  dynamic: true
